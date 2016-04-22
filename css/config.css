@@ -1,0 +1,88 @@
+#MenuID li {
+	display: inline-block;
+	list-style: none;
+	background-color: rgba(228, 57, 0, 0.4);
+	font-size: 20px;
+	position: relative;
+	/*left: 220;*/
+	left: 680;
+	top: -60;
+	font-weight: bold;
+	width: 10%;
+	text-align: center;
+	border: 1px solid black;
+	
+}
+
+#MenuID li:hover {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+#MenuID li a {
+	text-decoration: none;
+	color: white;
+	
+}
+
+#HeaderFix {
+	position: relative;
+	top: -10;
+}
+
+#leftSidePicture {
+	position: absolute;
+	border: 1px solid white;
+	top: 40%;
+}
+
+#leftSidePicture:hover {
+	border: 20px solid rgba(0, 0, 0, 0);
+}
+
+#YT_Button {
+	background-color: red;
+	color: white;
+	font-size: 20px;
+	position: relative;
+	width: 8%;
+	text-align: center;
+	border: 1px solid white;
+	left: 680;
+	top: -33%;
+	left: 73%;
+}
+
+#YT_Button a {
+	text-decoration: none;
+	color: white;
+}
+
+.ImageFixed {
+	position: absolute;
+	border: 1px solid white;
+	top: 1%;
+	left: 77%;
+	border: 1px solid black;
+}
+
+.ImageFixed:hover, .ImageFixed2:hover, #YT_Button:hover {
+	border: 5px solid rgba(0, 0, 0, 0);
+}
+
+.ImageFixed2 {
+	position: absolute;
+	border: 1px solid white;
+	top: 1%;
+	left: 72%;
+	border: 1px solid black;
+}
+
+
+
+#GifSpec {
+	position: absolute;
+	left: 2%;
+	top: 20;
+}
+
+
